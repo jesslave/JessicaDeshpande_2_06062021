@@ -145,6 +145,22 @@ header {
     width: 7rem;
 }
 
+@media screen and ( max-width: 650px ) {
+    .filter {
+        padding-left: 0.5rem;
+    }
+
+    .completeInfo {
+        padding-left: 0.5rem;
+    }
+
+    .completeFilter {
+        margin-bottom: 1rem;
+    }
+
+}
+
+
 .filter {
     display: flex;
     align-items: center;
@@ -513,6 +529,10 @@ a {
 @media screen and ( max-width: 650px ) {
     .footerClass {
         flex-direction: column;
+        padding-left: 1rem;
+    }
+    .footerLinks {
+        width: 20rem;
     }
 }
 
